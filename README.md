@@ -19,7 +19,9 @@ The pair programming challenge will take an hour, and will more closely replicat
 - Presence of tests or planning for future tests
 - And maintainability
 
-While we mainly use React and React Native in our back-end, we welcome candidates who are more familiar with other frameworks; we also use Vue.js. We ask that you simply confirm your framework of choice with your recruiter beforehand. At the moment, we have only finalized starter code for React, but feel free to look through that to prepare for your assignment even if using another framework.
+While we mainly use React and React Native in our front-end, we welcome candidates who are more familiar with other frameworks; we also use Vue.js. We ask that you simply confirm your framework of choice with your recruiter beforehand. At the moment, we have only finalized starter code for React, but feel free to look through that to prepare for your assignment even if using another framework.
+
+For the React excercise you will notice that this is very much a bare-bones create-react-app application. `App.js` has been only slightly modified to include a basic form for the installments calculator and a prompt. Feel free to change this code in your interview to be whatever you like -- class component, etc.  
 
 ## The Pair Programming Interview
 
