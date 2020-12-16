@@ -16,12 +16,6 @@ function App() {
     console.log("Creating payment plan with amount: $", amount);
   }
 
-  useEffect(() => {
-    // for testing purposes, a purchase amount of $100 should calculate four
-    // installments of $25
-    createPaymentPlan(100);
-  }, [])
-
   return (
     <div className="App">
       <header className="App-header">
