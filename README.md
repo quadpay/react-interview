@@ -4,8 +4,6 @@
 
 Zip is a payment gateway that lets consumers split purchases into 4 interest free installments, every two weeks. The first 25% is taken when the purchase is made, and the remaining 3 installments of 25% are automatically taken every 14 days. We help customers manage their cash-flow while helping merchants increase conversion rates and average order values.
 
-It may help to see our [product in action online](https://www.newegg.com/black-red-blue-nintendo-hadskabaa-switch-console-with-neon-blue-and-neon-red-joy-con/p/N82E16878190842oots) or [android](https://play.google.com/store/apps/details?id=com.quadpay.quadpay&hl=en_US), and to read our documentation (https://docs.us.zip.co).
-
 ## Background
 
 One of the cornerstones of Zip's culture is openness and transparency. When reviewing our existing interview structure, we found that pair-programming challenges rarely replicated what our employees actually do in their day-to-day work. For example, when was the last time you coded without google, or when the requirements weren't clearly defined? To tackle that, we've decided to publish our pair programming interview and share it directly with candidates beforehand.
@@ -20,9 +18,9 @@ The pair programming challenge will take an hour, and will more closely replicat
 - Presence of tests or planning for future tests
 - And maintainability
 
-While we mainly use React and React Native in our front-end, we welcome candidates who are more familiar with other frameworks; we also use Vue.js. We ask that you simply confirm your framework of choice with your recruiter beforehand. At the moment, we have only finalized starter code for React, but feel free to look through that to prepare for your assignment even if using another framework.
+While we mainly use React and React Native in our front-end, we welcome candidates who are more familiar with other frameworks. We ask that you simply confirm your framework of choice with your recruiter beforehand. At the moment, we have only finalized starter code for React, but feel free to look through that to prepare for your assignment even if using another framework.
 
-For the React excercise you will notice that this is very much a bare-bones create-react-app application. `App.tsx` has been only slightly modified to include a basic form for the installments calculator and a prompt. Feel free to change this code in your interview to be whatever you like -- class component, etc.
+For the React excercise you will notice that this is very much a bare-bones React application. `App.tsx` has been only slightly modified to include a basic form for the installments calculator and a prompt. Feel free to change this code in your interview to be whatever you like.
 
 ## The Pair Programming Interview
 
