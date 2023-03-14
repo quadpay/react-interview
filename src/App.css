@@ -37,11 +37,13 @@ label {
   padding: 1.5em;
   width: 300px;
   margin: 10px auto;
-  filter: drop-shadow(0 0 200px #b5a2f9);
+  filter: drop-shadow(0 0 80px #7379efaa);
+  transition: all 300ms ease-in-out;
 }
 
 .zip-logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  transition: all 300ms ease-in-out;
+  filter: drop-shadow(0 0 80px #b5a2f9);
 }
 
 .card {
