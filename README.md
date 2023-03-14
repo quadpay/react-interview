@@ -12,7 +12,8 @@ One of the cornerstones of Zip's culture is openness and transparency. When revi
 
 As an Engineer at Zip you’ll help solve interesting problems on a daily basis. Some areas that you'll work on include fraud prevention, building real-time credit-decisioning models and, most importantly, shipping products that are secure, frictionless, and deliver a high-quality consumer experience.
 
-The pair programming challenge will take an hour, and will more closely replicate a day-in-the-life at Zip. You’re free to use whichever resources help you to get the job done. When we evaluate your code at the end of the session, we will be looking for: 
+The pair programming challenge will take an hour, and will more closely replicate a day-in-the-life at Zip. You’re free to use whichever resources help you to get the job done. When we evaluate your code at the end of the session, we will be looking for:
+
 - A high code health
 - Simplicity
 - Readability
@@ -21,7 +22,7 @@ The pair programming challenge will take an hour, and will more closely replicat
 
 While we mainly use React and React Native in our front-end, we welcome candidates who are more familiar with other frameworks; we also use Vue.js. We ask that you simply confirm your framework of choice with your recruiter beforehand. At the moment, we have only finalized starter code for React, but feel free to look through that to prepare for your assignment even if using another framework.
 
-For the React excercise you will notice that this is very much a bare-bones create-react-app application. `App.js` has been only slightly modified to include a basic form for the installments calculator and a prompt. Feel free to change this code in your interview to be whatever you like -- class component, etc.  
+For the React excercise you will notice that this is very much a bare-bones create-react-app application. `App.tsx` has been only slightly modified to include a basic form for the installments calculator and a prompt. Feel free to change this code in your interview to be whatever you like -- class component, etc.
 
 ## The Pair Programming Interview
 
@@ -30,16 +31,18 @@ For the React excercise you will notice that this is very much a bare-bones crea
 During the interview, you will build a core service for our business, an Installment Calculator. There is no need to build anything before the interview, but feel free to investigate the boilerplate code and do some research on how you would set this up.
 
 #### Installment Calculator
+
 ##### User Story
 
 As a Zip Customer, I would like to establish a payment plan spread over 6 weeks that splits the original charge evenly over 4 installments.
 
 ##### Acceptance Criteria
+
 - When I submit an input of $94.00
 - Then I should see a UI displaying these 4 installments
 
 Note: Dates can be hardcoded for this exercise
-![Payments](payments.png?raw=true "Payments")
+![Payments](payments.png?raw=true 'Payments')
 
 ## Closing Thoughts
 
