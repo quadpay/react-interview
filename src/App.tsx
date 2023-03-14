@@ -1,6 +1,7 @@
-import logo from './images/Zip_Logo.png';
-import './App.css';
-import React, { useEffect } from 'react';
+import React, { useState } from 'react'
+import zipLogo from './images/Zip_Logo@3x.png'
+import './App.css'
+
 
 function App() {
   /**
@@ -16,17 +17,15 @@ function App() {
   };
 
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <form>
-          <label>How much do you plan to spend?</label>
-          <input type='text' id='amount' />
-          <input type='submit' value='Submit' />
-        </form>
-      </header>
+    <div className="App">
+      <img src={zipLogo} className='App-logo' alt='logo' />
+      <form>
+        <label>How much do you plan to spend?</label>
+        <input type='text' id='amount' />
+        <input type='submit' value='Submit' />
+      </form>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
