@@ -5,11 +5,10 @@ import './App.css'
 
 function App() {
   /**
+   * 
    * This function calculates the installments for a purchase plan.
    * Assume there are always four installments.
-   * The function need not return anything but should be used to display
-   * the four installments back to the user after the user inputs a valid
-   * dollar amount and clicks submit.
+   * 
    * @param {number} amount the amount the customer intends to purchase
    */
   const createPaymentPlan = (amount) => {
