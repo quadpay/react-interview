@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import zipLogo from './images/Zip_Logo@3x.png'
 import './App.css'
 
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <img src={zipLogo} className='zip-logo' alt='logo' />
       <form>
-        <label>How much do you plan to spend?</label>
+        <label data-testid="input-label">How much do you plan to spend?</label>
         <input type='text' id='amount' />
         <input type='submit' value='Submit' />
       </form>
